@@ -1,6 +1,6 @@
 # CircuitPython
 Year Long Engineering 3 Notebook
-#First Assignment
+# First Assignment
 My first assignment was to upload CircuitPython code to a metro express and make it blink. My second assignment was to upload it here.
 
 import board
