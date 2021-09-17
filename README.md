@@ -22,5 +22,5 @@ while True:
 
 ```
 ### Evidence
-<img src="https://ezgif.com/cut/ezgif-4-f33a4798e087.gif" alt="gif" width="500" height="600">
+<img src="Media/led.gif.gif" alt="gif" width="500" height="600">
 ### Reflection
