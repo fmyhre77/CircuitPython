@@ -22,5 +22,5 @@ while True:
 
 ```
 ### Evidence
-<img src="Media/led.gif.gif" alt="gif" width="500" height="600">
+<img src="Media/led.gif.gif" alt="gif" width="400" height="250">
 ### Reflection
