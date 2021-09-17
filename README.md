@@ -24,3 +24,4 @@ while True:
 ### Evidence
 <img src="Media/led.gif.gif" alt="gif" width="400" height="250">
 ### Reflection
+I had difficulties adding my GIF to github, and that was about it. The problem was solved by google searching key words in the error message on git bash.
