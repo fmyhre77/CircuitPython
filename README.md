@@ -56,3 +56,6 @@ while True:
 <img src="https://github.com/afriedm49/Circuit_Python_Asher/blob/main/ServoGif.gif?raw=true" alt="gif" width="400">
 
 Image credit goes to [Asher Friedman](https://github.com/afriedm49/Circuit_Python_Asher)
+
+### Reflection
+I had difficulties uploading my code from the right folder as well as getting it to upload. I had to switch to my CircuitPython folder and named the file code.py.
