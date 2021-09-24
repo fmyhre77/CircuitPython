@@ -59,3 +59,36 @@ Image credit goes to [Asher Friedman](https://github.com/afriedm49/Circuit_Pytho
 
 ### Reflection
 I had difficulties uploading my code from the right folder as well as getting it to upload. I had to switch to my CircuitPython folder and named the file code.py.
+## CircuitPython Ultrasonic Sensor
+### Description and Code
+My assignment was to make a neopizel change color based on the distance read from an ultrasonic sensor.
+```
+import time
+import board
+import neopixel
+import adafruit_hcsr04
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D7, echo_pin=board.D8)
+
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = .15
+color = str
+cm = 0
+
+while True:
+    try:
+        cm = round(sonar.distance)
+        if cm < 10:
+            led.fill((255, 153, 51))
+        
+        elif cm < 20:
+            led.fill((255, 51, 255))
+            
+        elif cm > 20:
+            led.fill((153, 255, 255))
+        print((sonar.distance,))
+        
+    except RuntimeError:
+        print("JOE!")
+    time.sleep(0.1)
+```
+### Evidence
