@@ -92,4 +92,4 @@ while True:
     time.sleep(0.1)
 ```
 ### Evidence
-<img src="Media/Ultrasonic.gif.gif" alt="gif"
+<img src="Media/Ultrasonic.gif.gif" alt="gif">
