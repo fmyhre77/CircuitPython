@@ -96,7 +96,9 @@ while True:
 ## CircuitPyhton Photointerrupters
 ### Description and Code
 My assignment was to have a photointerrupter count the number of interrupts over 4 seconds.
+
 ```
+
 from digitalio import DigitalInOut, Direction, Pull
 import time
 import board
