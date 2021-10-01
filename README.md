@@ -93,7 +93,9 @@ while True:
 ```
 ### Evidence
 <img src="Media/Ultrasonic.gif.gif" alt="gif">
+
 ## CircuitPyhton Photointerrupters
+
 ### Description and Code
 My assignment was to have a photointerrupter count the number of interrupts over 4 seconds.
 
