@@ -25,7 +25,7 @@ while True:
 <img src="Media/led.gif.gif" alt="gif" width="400" height="250">
 
 ### Reflection
-I had difficulties adding my GIF to github, and that was about it. The problem was solved by google searching key words in the error message on git bash.
+I had difficulties adding my GIF to github, and that was about it. The problem was solved by google searching key words in the error message on git bash. It is useful to add images without Gitbash as well, by pressing add image in a folder in the repository.
 ## CircuitPython Servo
 ### Description and Code
 The assignment was to get a Servo to rotate 180 degrees using CircuitPython Code. 
@@ -58,7 +58,7 @@ while True:
 Image credit goes to [Asher Friedman](https://github.com/afriedm49/Circuit_Python_Asher)
 
 ### Reflection
-I had difficulties uploading my code from the right folder as well as getting it to upload. I had to switch to my CircuitPython folder and named the file code.py.
+I had difficulties uploading my code from the right folder as well as getting it to upload. I had to switch to my CircuitPython folder and named the file code.py.To get the servo to work I had to use for statements, which were new and useful for angle ranges withs servos.
 ## CircuitPython Ultrasonic Sensor
 ### Description and Code
 My assignment was to make a neopizel change color based on the distance read from an ultrasonic sensor.
@@ -94,6 +94,8 @@ while True:
 ### Evidence
 <img src="Media/Ultrasonic.gif.gif" alt="gif">
 
+### Reflection
+For this assignment I had trouble getting my ultrasonic sensor to correspond with my LED. I fixed this by using try: and except: to find out what the sensor was reading, and communicate it to my neopixel.
 ## CircuitPyhton Photointerrupters
 
 ### Description and Code
@@ -121,7 +123,6 @@ while True:
     if photo and not state:
             counter += 1
     state = photo
-
     remaining = max - time.time()
 
     if remaining <= 0:
@@ -130,7 +131,7 @@ while True:
         counter = 0
 ```
 ### Reflection
-
+My assignment was to make a LCD screen display the number of interrupts during a time period, so I used a run time variable to start the sequence. Once the time starts, the number of interrupts is counted by reading the state of the intterupter, then adding a value to a variable when it is interacted with.
 ## CircuitPython LCD
 ### Description and Code
 My assignment was to control an LCD screen using capacitive touch. One wire was to count up or down and the other one was to determine whether it went up or down.
